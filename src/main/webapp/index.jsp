@@ -1,18 +1,16 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Project Details</title>
-    <style>
-        body { font-family: sans-serif; padding: 50px; background: #f4f4f4; }
-        .card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
-    </style>
-</head>
-<body>
-    <div class="card">
-        <h1>Project Details</h1>
-        <p>This is the second page of your DevOps application!</p>
-        <a href="index.jsp">Go Back Home</a>
-    </div>
-</body>
-</html>
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="xmlns.jcp.org"
+         xmlns:xsi="www.w3.org"
+         xsi:schemaLocation="xmlns.jcp.org xmlns.jcp.org/web-app_4_0.xsd"
+         version="4.0">
+    
+    <display-name>My Web App</display-name>
+
+    <!-- This section defines the order in which files are searched for as the default home page -->
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>index.html</welcome-file>
+        <welcome-file>details.jsp</welcome-file>
+    </welcome-file-list>
+    
+</web-app>
