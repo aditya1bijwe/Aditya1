@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to My DevOps Project</title>
+    <title>Welcome to My Devops 1st Page</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -48,6 +48,7 @@
     <div class="container">
         <h1>Hello from DevOps-02!</h1>
         <p>This is the main welcome page for your application.</p>
+        <p> if you click this button this will not take you any where.Just trail deoplyment.</p>
         <!-- The button now links to details.jsp -->
         <a href="details.jsp" class="btn">Explore Project Details</a>
     </div>
